@@ -33,7 +33,7 @@ const DataArea = () => {
 
 		const searchFunction = (a, b) => {
 			if (currentOrder === "ascend") {
-				// account for missing values
+				// Accounts for missing values
 				if (a[heading] === undefined) {
 					return 1;
 				} else if (b[heading] === undefined) {
