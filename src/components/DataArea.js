@@ -31,7 +31,7 @@ const DataArea = () => {
 			currentOrder = "descend";
 		}
 
-		const compareFnc = (a, b) => {
+		const searchFunction = (a, b) => {
 			if (currentOrder === "ascend") {
 				// account for missing values
 				if (a[heading] === undefined) {
@@ -40,15 +40,10 @@ const DataArea = () => {
 					return -1;
 				}
 			} else {
-				// account for missing values
-				if (a[heading] === undefined) {
-					return 1;
-				} else if (b[heading] === undefined) {
-					return -1;
-				}
+				console.log("Done!");
 			}
 		};
-		const sortedUsers = developerState.filteredUsers.sort(compareFnc);
+		const sortedUsers = developerState.filteredUsers.sort(searchFunction);
 		const updatedHeadings = developerState.headings.map(elem => {
 			elem.order = elem.name === heading ? currentOrder : elem.order;
 			return elem;
