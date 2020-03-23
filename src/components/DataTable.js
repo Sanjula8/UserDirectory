@@ -41,3 +41,20 @@ const DataTable = () => {
 };
 
 export default DataTable;
+
+//Header Names
+//DoB
+//Image
+//Names
+
+// function DataTable {
+//     <div>
+//         <table>
+//             <thead>
+//                 <th>
+//                     Image
+//                 </th>
+//             </thead>
+//         </table>
+//     </div>
+// }
