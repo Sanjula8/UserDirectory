@@ -7,6 +7,7 @@ const SearchName = () => {
 	return (
 		<div className="searchbox">
 			<div className="input-group">
+				{/* Created as an input as no button is being clicked */}
 				<div className="input-group-prepend">
 					<span className="input-group-text" id="">
 						Search

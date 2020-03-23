@@ -54,9 +54,10 @@ const DataArea = () => {
 			headings: updatedHeadings
 		});
 	};
-
+	// Search Function
 	const handleSearchChange = event => {
 		const filter = event.target.value;
+		// Filters through employee users to return values of first and last name when searched
 		const filteredList = developerState.users.filter(item => {
 			let values =
 				item.name.first.toLowerCase() +
@@ -70,6 +71,7 @@ const DataArea = () => {
 
 		setDeveloperState({ ...developerState, filteredUsers: filteredList });
 	};
+	// Use Effect will run after the render is already commited on the screen
 	useEffect(() => {
 		API.getUsers().then(results => {
 			console.log(results.data.results);
@@ -82,6 +84,7 @@ const DataArea = () => {
 	}, []);
 
 	return (
+		// Thanks to the Context API, we do not need to pass any props through this component
 		<DataAreaContext.Provider
 			value={{ developerState, handleSearchChange, handleSort }}
 		>

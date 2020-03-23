@@ -3,7 +3,7 @@ import DataAreaContext from "../utils/DataAreaContext";
 
 const DataBody = () => {
 	const context = useContext(DataAreaContext);
-
+	// Creating consts to display on page
 	function formatDate(date) {
 		const dateArray = date.split("-");
 		const year = dateArray[0];
