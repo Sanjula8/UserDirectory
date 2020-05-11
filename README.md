@@ -1,5 +1,5 @@
 # Deployment
-[https://enigmatic-wave-55927.herokuapp.com/](Deployed Site)
+(https://enigmatic-wave-55927.herokuapp.com/)[Deployed Site]
 
 # User Directory
 [![Contributors][contributors-shield]][contributors-url]
