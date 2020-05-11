@@ -25,8 +25,8 @@ A simple display of an employee directory using Javascript and React.  The appli
 
 ### Built With
 
-* [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
-* [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+ [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
+ [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 
 ## Getting Started
