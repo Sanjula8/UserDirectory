@@ -1,5 +1,6 @@
 # Deployment
-(https://enigmatic-wave-55927.herokuapp.com/)[Deployed Site]
+[Deployed Site](https://enigmatic-wave-55927.herokuapp.com/)
+
 
 # User Directory
 [![Contributors][contributors-shield]][contributors-url]
@@ -84,8 +85,8 @@ Project Link: [https://github.com/Sanjula8/UserDirectory](https://github.com/San
 
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
 * [Readme Badges – Gotta catch 'em all](https://github.com/boennemann/badges)
-* [Img Shields:](https://shields.io)
-* [Badges:](https://forthebadge.com/)
+* [Img Shields](https://shields.io)
+* [Badges](https://forthebadge.com/)
 
 
 
