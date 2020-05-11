@@ -21,7 +21,7 @@
 
 ## About The Project
 
-A simple representation of being able to display a company's employee directory and sorting through it using simple javascript methods and React.
+A simple display of an employee directory using Javascript and React.  The application is broken up into components, uses component state, and responds to user events.  The application also allows you to be able to filter employees by name and sorte the table by their categories.
 
 ### Built With
 
