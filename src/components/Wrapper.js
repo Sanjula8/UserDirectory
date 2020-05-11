@@ -1,10 +1,12 @@
-import React from "react";
-import "./Main";
+import React from 'react';
+import "../styles/Wrapper.css";
 
-// Passes in props to display header and main in react app
-function Wrapper(props) {
-	// Creates a new HTML property called main where the properties are passed through
-	return <main className="wrapper" {...props}></main>;
+function Wrapper({ children }) {
+  return (
+      <div className="wrapper">
+        { children }
+      </div>
+  );
 }
 
 export default Wrapper;

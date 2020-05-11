@@ -1,68 +1,93 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# User Directory
+[![Contributors][contributors-shield]][contributors-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+## Table of Contents
 
-## Available Scripts
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
-In the project directory, you can run:
 
-### `npm start`
+## About The Project
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+A simple representation of being able to display a company's employee directory and sorting through it using simple javascript methods and React.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Built With
 
-### `npm test`
+* [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
+* [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get a local copy up and running follow these simple steps that follow.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This is an example of how to list things you need to use the software and how to install them.
+* npm 
+```sh
+npm install inquirer
+```
+```sh
+npm install axios
+```
 
-### `npm run eject`
+### Installation
+ 
+1. Clone the repo
+```sh
+git clone https://github.com/Sanjula8/UserDirectory
+```
+2. Install NPM packages
+```sh
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This easy to use web based application can be used a template to display any information returned from an API call using the React Framework.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Built and stored on GitHub, the code found in this repo can be expanded and repurposed. Any contributions you make are **greatly appreciated**.
 
-## Learn More
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+None
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Contact
 
-### Analyzing the Bundle Size
+Email: [sanjula8@gmail.com](sanjula8@gmail.com)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Project Link: [https://github.com/Sanjula8/UserDirectory](https://github.com/Sanjula8/UserDirectory)
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Acknowledgements
 
-### Advanced Configuration
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
+* [Readme Badges – Gotta catch 'em all](https://github.com/boennemann/badges)
+* [Img Shields:](https://shields.io)
+* [Badges:](https://forthebadge.com/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<!-- MARKDOWN LINKS & IMAGES -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/sanjula-mahathantila-0046a7a3/
+[contributors-shield]: https://img.shields.io/github/contributors/Swordspeare09/user-directory.svg?style=flat-square
+[contributors-url]: https://github.com/Sanjula8/UserDirectory/graphs/contributors
